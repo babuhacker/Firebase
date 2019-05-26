@@ -1,0 +1,27 @@
+firebase:Google Firebase is a Google product that is used for Mobile and Web App Development.
+         Google Firebase gives us tools and Services that allow us to build high-quality Apps and increase your business
+         to make a great buck. 
+
+//script
+
+	<script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
+
+
+//object
+  // my web app's Firebase configuration
+	var firebaseConfig = {
+  apiKey: "api-key",
+  authDomain: "project-id.firebaseapp.com",
+  databaseURL: "https://project-id.firebaseio.com",
+  projectId: "project-id",
+  storageBucket: "project-id.appspot.com",
+  messagingSenderId: "sender-id",
+  appID: "app-id",
+	};
+console.log(firebaseConfig);
+
+
+
+//connect with database
+var database  = firebase.database();
